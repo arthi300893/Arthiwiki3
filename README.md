@@ -17,6 +17,11 @@ Created a folder as terraform and added main.tf variable.tf and provider.tf
 
 ![image](https://github.com/arthi300893/Arthiwiki3/assets/100258495/0dccd4ef-83da-4687-8e53-3f9d1e4e8d8f)
 
+After resource creation using terraform we can validate in Azure Portal
+
+![image](https://github.com/arthi300893/Arthiwiki3/assets/100258495/2b990969-08d3-48a8-a647-3ceda8decbf5)
+
+
 
 
 
