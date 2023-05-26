@@ -1,0 +1,28 @@
+---
+- name: Install Apache and PHP for MediaWiki
+  hosts: 20.51.182.49
+  become: true
+
+  tasks:
+    - name: Install Apache
+      apt:
+        name: apache2
+        update_cache: yes
+
+    - name: Install PHP and required modules
+      apt:
+        name: "{{ item }}"
+        update_cache: yes
+      loop:
+          - libapache2-mod-php
+          - php
+          - php-cli
+          - php-mysql
+          - php-gd
+          - php-xml
+          - php-mbstring
+
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
