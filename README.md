@@ -31,3 +31,5 @@ After resource creation using terraform we can validate in Azure Portal
 
 
 
+
+
