@@ -21,6 +21,12 @@ After resource creation using terraform we can validate in Azure Portal
 
 ![image](https://github.com/arthi300893/Arthiwiki3/assets/100258495/2b990969-08d3-48a8-a647-3ceda8decbf5)
 
+![image](https://github.com/arthi300893/Arthiwiki3/assets/100258495/2d05574a-1890-4728-9d70-df8faf4fcf07)
+
+![image](https://github.com/arthi300893/Arthiwiki3/assets/100258495/26fa9921-25d7-4613-9f6a-eee96ce97c1e)
+
+
+
 
 
 
